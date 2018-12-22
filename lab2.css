@@ -50,3 +50,55 @@ img{
     grid-row: 1/3;
     width: 100%;
 }
+
+/* filtros */
+
+.img1:hover {
+  -webkit-filter: url(#FiltroGaussian);
+  filter: url(#FiltroGaussian);   
+}
+
+.img2:hover {
+  -webkit-filter: url(#FiltroSaturacion);
+  filter: url(#FiltroSaturacion);   
+}
+
+.img3:hover {
+  -webkit-filter: url(#FiltroSaturacionErode);
+  filter: url(#FiltroSaturacionErode);   
+}
+
+.img4:hover {
+  -webkit-filter: url(#filtroTurbulencia);
+  filter: url(#filtroTurbulencia);   
+}
+
+.img5:hover {
+  -webkit-filter: url(#filtroTurbulencia);
+  filter: url(#filtroTurbulencia);   
+}
+
+.img6:hover {
+  -webkit-filter: url(#FiltroSepia);
+  filter: url(#FiltroSepia);   
+}
+
+.item1:hover {
+  -webkit-filter: url(#FiltroDilatar);
+  filter: url(#FiltroDilatar);   
+}
+
+.item2:hover {
+  -webkit-filter: url(#FiltroTextura);
+  filter: url(#FiltroTextura);   
+}
+
+.item3:hover {
+  -webkit-filter: url(#FiltroHue);
+  filter: url(#FiltroHue);   
+}
+
+.item4:hover {
+  -webkit-filter: url(#FiltroLineas);
+  filter: url(#FiltroLineas);   
+}
